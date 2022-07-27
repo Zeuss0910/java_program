@@ -1,3 +1,10 @@
+/**
+Author:Mohammed Ashwath
+Title:Increment Decrement
+Question:Java Program Using Increment Decerement
+**/
+
+
 import java.util.Scanner;
 public class IncreDecre
 {
