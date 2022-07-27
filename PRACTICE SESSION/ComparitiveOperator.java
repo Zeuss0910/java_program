@@ -1,10 +1,10 @@
-import java.util.Scanner;
 /**
 Author:Mohammed Ashwath
 Title:Comparitive Operator
 Question:Using if,else Statement
 **/
 
+import java.util.Scanner;
 public class ComparitiveOperator
 public static void main (String [] args)
 {
