@@ -18,7 +18,7 @@ int num2 = sc.nextInt();
 int add = num1 + num2;
 int sub = num1 - num2;
 int div = num1/num2;
-int mul=  num1 * num2;
+int mul =  num1 * num2;
 int mod = num1 % num2;
 
 System.out.println("ADDITION OF TWO NUMBERS:"+add);
