@@ -7,7 +7,7 @@ Question:How to get the bank credit,debit and account balance information?
 import java.util.Scanner;
 class Account
 {
-static int balance = 8257; //static variable is declared as it does not ned to be called by method
+static int balance = 8257; //static variable is declared as it does not need to be called by method
 
 void balance() // a method is created for checking balance
 {
@@ -30,7 +30,7 @@ System.out.println("Balance after debited:"+deb) ;
 return deb;
  }
 }
-public class Bank2 //a seperate class is created for using main method and the is a public class it can be frst accessed by the  compiler
+public class Bank2 //a separate class is created for using main method and the public class it can be first accessed by the compiler
 {
 public static void main (String [] args)
 {
