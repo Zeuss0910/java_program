@@ -14,7 +14,7 @@ void balance() // a method is created for checking balance
 if (balance >0) // if the balance is greater then 0 then the balance amount will be printed
 {
 System.out.println("your current balance is "+balance);
-  }
+}
 }
 
 int credit(int amount) // integer method is used as the amount is passed through it for calculating credit
@@ -28,7 +28,7 @@ int debit (int amount)//integer method is used as the amount is passed through i
 int deb = balance-amount; // after debiting the amount is decreased from the balance amount
 System.out.println("Balance after debited:"+deb) ;
 return deb;
- }
+}
 }
 public class Bank2 //a separate class is created for using main method and the public class it can be first accessed by the compiler
 {
@@ -46,5 +46,5 @@ Account a = new Account();//an object is created for accessing the non static me
 a.balance();
 a.credit(amount);
 a.debit (amount) ;
- }
+}
 }
