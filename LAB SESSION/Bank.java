@@ -20,8 +20,7 @@ int number= sc.nextInt();
 int Credit=balance;
 int Debit=balance;
 switch(number)
-{
-		
+{		
 case 1:
 System.out.println("Current Balance :" + balance);
 break;
