@@ -2,11 +2,11 @@ public class Class1  //main class class1
 {
 public static void main(String[] args)
 {
-A ob = new A(65, 70, 75);   //an object for paramEtrized constructor of class A is created
+A ob = new A(65, 70, 75);   //an object for parametrized constructor of class A is created
 
 System.out.println("Student 1 Per: " +ob.getPercentage()); //println statement to get the percentage of student 1 
 
-B obj = new B(80 , 85, 90, 95);  //an object for paramEtrized constructor of class A is created
+B obj = new B(80 , 85, 90, 95);  //an object for parametrized constructor of class A is created
 
 
 System.out.println("Student 2 Per: " +obj.getPercentage()); //println statement to get the percentage of student 1 
@@ -19,11 +19,11 @@ abstract class Mark. //an abstract class mark is created
 abstract float getPercentage(); // abstract method for the abstract class 
 }
 
-class A extends Mark  // class A extends the anstract class mark 
+class A extends Mark  // class A extends the abstract class mark 
 {
 float sub1 , sub2 , sub3;
 float per=0;        
-A(float a , float b, float c)// paraneterized method of class A
+A(float a , float b, float c)// parameterized method of class A
 {
 //where sub 1,2,3 refers to a,b,c 
 sub1 = a;
@@ -35,12 +35,12 @@ public float getPercentage() //method overriding is done
 {
 per = (sub1 + sub2 + sub3 )/300* 100; // calculating the percentage 
 
-return per; //returning the float percentage value  as the return type is a float 
+return per; //returning the float percentage value as the return type is a float 
 }
 }
 
 
-class B extends Mark. // class B extends the anstract class mark 
+class B extends Mark. // class B extends the abstract class mark 
 {
 //where sub 1,2,3 refers to a,b,c
 
@@ -59,7 +59,7 @@ public float getPercentage() //method overriding is done
 {
 per = (sub1 + sub2 + sub3 + sub4 )/400* 100; 
 
-return per; //returning the float percentage value  as the return type is a float 
+return per; //returning the float percentage value as the return type is a float 
 
 }
 }
