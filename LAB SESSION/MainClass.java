@@ -1,3 +1,11 @@
+/**
+Author:Mohammed Ashwath
+Title:Thread Implementation 
+Question:Using thread implement the current date 
+**/
+
+
+
 import java.util.Date; // importing date package to get the current date
 
 public class MainClass 
